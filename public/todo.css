@@ -1,0 +1,238 @@
+/*****************************************************************/
+
+/* iphone 4 */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+and (orientation : portrait) {
+
+  .mobile { 
+      display: inline-block;
+      margin: 0 5px; 
+  }
+
+  .desktop { display: none; }
+}
+
+/* iphone 5 */
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+
+  .mobile {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .desktop { display: none; }
+}
+
+/* iphone 6 */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+
+  .mobile {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .desktop { display: none; }
+}
+
+@media only screen
+  and (min-device-width : 768px) {
+
+  .mobile { display: none; }
+  .desktop { 
+    display: inline-block;
+    margin: 0 5px;
+  }
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;  
+}
+
+/*****************************************************************/
+span.red {
+  color: red;
+}
+
+span.white {
+  color: white;
+}
+
+div.divider .line.r {
+  right: 0px;
+}
+
+div.divider .line.l {
+  left: 0px;
+}
+
+.btn {
+  padding: 10px 30px;
+}
+
+/*****************************************************************/
+div.todo {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #bbb;
+  margin-top:50px;
+}
+
+div.todo div.todo-page div.todo-page-container {
+  display: flex;
+  flex-flow: column;
+  height: 400px;
+  justify-content: space-between;  
+}
+
+/*****************************************************************/
+
+.slide-layer {
+  position: relative;
+  left: 0px;  
+  transition: left 0.5s;
+}
+
+.slide-layer.slided {
+  left: 40px;
+}
+
+div.todo ul {
+  list-style: none;
+  padding: 0;
+}
+
+div.todo li.todo-list-item div.item {
+  padding-bottom: 3px;
+}
+
+div.todo .todo-header .title {
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #bbb;
+  text-align: center;
+}
+
+div.todo .todo-page-content-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;  
+  margin-bottom: 30px;
+  height: 100%;
+}
+
+div.todo li.todo-list-item .title, .todo-page-details .title {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+div.todo li.todo-list-item div.item {
+  width: 100%;
+}
+
+div.todo li.todo-list-item div.item div.details {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+div.todo li.todo-list-item div.item div.details span {
+  padding: 0 3px;
+}
+
+div.todo li.todo-list-item div.item div.item div.percentage {
+  padding: 0px 15px;
+}
+
+div.todo li.todo-list-item div.item div.percentage span {
+  background-color: #bbb;
+  width: 28px;
+  height: 4px;
+  margin-right: 2px;
+  border: 1px solid #ddd;
+}
+
+/*****************************************************************/
+div.todo div.todo-header {
+  min-height: 80px;
+}
+
+div.todo div.todo-header button {
+  width: 100%;
+}
+
+div.todo div.todo-header button span {
+  float: right;
+}
+
+div.todo div.todo-header div.divider {
+  width: 100%;
+  margin: 10px 0;
+  color: #bbb;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.todo div.todo-header div.divider .line {
+  border-top: 1px solid #bbb;
+  position: relative;
+  top: 7px;
+  width: 20%;
+}
+
+/*****************************************************************/
+div.todo div.item .todo-list-item .content {
+  flex: 1 1 auto; 
+  overflow: auto;
+}
+
+/*****************************************************************/
+.content .checkbox {
+  display: none;
+}
+
+.content .checkbox + label {
+  background-color: #fafafa;
+  border: 1px solid #cacece;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+  padding: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 0px;
+  margin-right: 15px;
+}
+
+.content .checkbox + label:active {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.content .checkbox:checked + label {
+  background-color: #e9ecee;
+  border: 1px solid #adb8c0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+  color: #99a1a7;
+}
+
+.content .checkbox:checked + label:after {
+  content: '\2714';
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  color: #99a1a7;
+}
+
+.content .checkbox:checked + label + span {
+  text-decoration: line-through;
+}
