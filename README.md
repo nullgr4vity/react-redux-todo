@@ -10,7 +10,7 @@
 - Navigate to sample `http://localhost:3000/simple.html`
 
 ## Scope
-Two dimensional todo list with todos organized around groups.
+Two dimensional todo list where todos are assigned to particular groups.
 
 ## Picture
 
