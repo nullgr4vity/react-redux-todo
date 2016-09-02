@@ -1,6 +1,6 @@
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000)]()
 
-2d todos components built with [React][react] + [Redux][redux] and [Bootstrap 3][bootstrap].
+2d todos component built with [React][react] + [Redux][redux] and [Bootstrap 3][bootstrap].
 
 ## Local setup
 
