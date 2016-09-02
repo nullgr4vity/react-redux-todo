@@ -14,9 +14,9 @@ Two dimensional todo list with todos organized around groups.
 
 ## Picture
 
-![Alt text](http://nullgravity.eu/projects/react-bootstrap-todo-groups.png =250px)
-![Alt text](http://nullgravity.eu/projects/react-bootstrap-todo-remove-groups.png =250px)
-![Alt text](http://nullgravity.eu/projects/react-bootstrap-todo-todos-list.png =250px)
+![Alt text](http://nullgravity.eu/projects/react-bootstrap-todo-groups.png =250x)
+![Alt text](http://nullgravity.eu/projects/react-bootstrap-todo-remove-groups.png =250x)
+![Alt text](http://nullgravity.eu/projects/react-bootstrap-todo-todos-list.png =250x)
 
 ## Licence
 
