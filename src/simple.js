@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import { Provider } from 'react-redux';
 import Todo from './components/Todo';
-import { configureStore } from './store';
+import configureStore from './store';
 
 let store = configureStore();
 
